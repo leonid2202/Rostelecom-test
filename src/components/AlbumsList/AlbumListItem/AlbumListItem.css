@@ -1,0 +1,27 @@
+.album {
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  /* border: 1px solid black; */
+}
+
+.album-preview {
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+.album-header {
+  margin-left: 1rem;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.album-owner {
+  font-weight: normal;
+  color: darkgrey;
+}

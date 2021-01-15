@@ -1,0 +1,30 @@
+.album-filter-form {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 16px;
+  background-color: rgb(62, 166, 222);
+  border-radius: 0 0 16px 16px;
+}
+
+.album-filter-name {
+  flex: 3 0 150px;
+  margin: 8px 8px;
+  padding: 8px;
+  font-size: 1em;
+}
+.album-filter-user {
+  flex: 1 0 50px;
+  margin: 8px 8px;
+  padding: 8px;
+  font-size: 1em;
+}
+.album-filter-sort {
+  flex: 1 0 50px;
+  margin: 8px 8px;
+  padding: 8px;
+  font-size: 1em;
+}
